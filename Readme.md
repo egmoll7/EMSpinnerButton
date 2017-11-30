@@ -1,16 +1,15 @@
 <p align="center">
-<img src="https://github.com/egmoll7/EMAlertController/blob/master/Images/EMAlertController.png" alt="Icon"/>
+<img src="https://github.com/egmoll7/EMSpinnerButton/blob/master/Images/EMSpinnerButton.png" alt="Icon"/>
 </p>
 
 [![Language](https://img.shields.io/badge/Swift-4-orange.svg)]()
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![CocoaPods](https://img.shields.io/cocoapods/v/EMSpinnerButton.svg)]()
-[![GitHub stars](https://img.shields.io/github/stars/egmoll7/EMAlertController.svg)](https://github.com/egmoll7/EMAlertController/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/egmoll7/EMSpinnerButton.svg)](https://github.com/egmoll7/EMSpinnerButton/stargazers)
 
-EMAlertController is a beautiful alternative to the stock iOS UIAlertController. This library is fully customizable with an implementation like the native UIAlertController.
+EMSpinner Button
 
 <p align="center">
-<img src="https://github.com/egmoll7/EMAlertController/blob/master/Images/alert.gif" alt="Icon"/>
 </p>
 
 ## Table of Contents

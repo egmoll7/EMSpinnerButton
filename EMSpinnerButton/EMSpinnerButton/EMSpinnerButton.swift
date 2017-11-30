@@ -67,14 +67,14 @@ open class EMSpinnerButton: UIButton {
     }
   }
   
-  /// 
+  /// Sets the colors for the gradient backgorund
   public var gradientColors: [CGColor]? {
     willSet {
       gradientLayer.colors = newValue
     }
   }
   
-  ///
+  /// Sets the button title for its normal state
   public var title: String? {
     get {
       return self.title(for: .normal)
@@ -84,7 +84,7 @@ open class EMSpinnerButton: UIButton {
     }
   }
   
-  ///
+  /// Sets the button title color.
   public var titleColor: UIColor? {
     get {
       return self.titleColor
