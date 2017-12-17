@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "EMSpinnerButton"
   s.version      = "1.0.0"
-  s.summary      = "A short description of EMSpinnerButton."
+  s.summary      = "EMSpinnerButton is an elegant button with a spinner animation."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    A beautiful button
+EMSpinnerButton is an elegant button with a spinner animation and is fully customizable.
+Inspired by the Starbucks app
                    DESC
 
   s.homepage     = "https://github.com/egmoll7/EMSpinnerButton"
