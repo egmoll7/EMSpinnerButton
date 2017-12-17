@@ -10,6 +10,7 @@
 EMSpinner Button
 
 <p align="center">
+  <img src="https://github.com/egmoll7/EMSpinnerButton/blob/master/Images/collapse.gif" alt="Icon" height=400/>
 </p>
 
 ## Table of Contents
