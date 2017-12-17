@@ -7,7 +7,9 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/EMSpinnerButton.svg)]()
 [![GitHub stars](https://img.shields.io/github/stars/egmoll7/EMSpinnerButton.svg)](https://github.com/egmoll7/EMSpinnerButton/stargazers)
 
-EMSpinner Button
+EMSpinnerButton is an elegant button with a spinner animation and is fully customizable.
+
+Inspired by the Starbucks app
 
 <p align="center">
   <img src="https://github.com/egmoll7/EMSpinnerButton/blob/master/Images/collapse.gif" alt="Icon" height=400/>
