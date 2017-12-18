@@ -12,7 +12,7 @@ EMSpinnerButton is an elegant button with a spinner animation and is fully custo
 Inspired by the Starbucks app
 </p>
 <p align="center">
-  <img src="https://github.com/egmoll7/EMSpinnerButton/blob/master/Images/collapse.gif" alt="Icon" height=400/>
+  <img src="https://github.com/egmoll7/EMSpinnerButton/blob/master/Images/collapse.gif" alt="Icon" width='80%'/>
 </p>
 
 ## Table of Contents
