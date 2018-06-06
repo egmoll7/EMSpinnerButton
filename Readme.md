@@ -6,6 +6,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![CocoaPods](https://img.shields.io/cocoapods/v/EMSpinnerButton.svg)]()
 [![GitHub stars](https://img.shields.io/github/stars/egmoll7/EMSpinnerButton.svg)](https://github.com/egmoll7/EMSpinnerButton/stargazers)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/EMSpinnerButton.svg)]()
 
 <p align="center">
 EMSpinnerButton is an elegant button with a spinner animation and is fully customizable.<br>
