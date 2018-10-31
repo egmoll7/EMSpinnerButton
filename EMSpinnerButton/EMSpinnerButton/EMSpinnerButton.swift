@@ -61,7 +61,7 @@ open class EMSpinnerButton: UIButton {
   }()
   
   /// Sets the spinner color
-  public var spinnerColor:CGColor? {
+  public var spinnerColor: CGColor? {
     willSet {
       spinner.color = newValue
     }
@@ -133,7 +133,7 @@ internal extension EMSpinnerButton {
     animaton.fromValue = frame.width
     animaton.toValue =  frame.height
     animaton.duration = animationDuration
-    animaton.fillMode = kCAFillModeForwards
+	animaton.fillMode = CAMediaTimingFillMode.forwards
     animaton.isRemovedOnCompletion = false
     
     layer.add(animaton, forKey: animaton.keyPath)
@@ -151,7 +151,7 @@ internal extension EMSpinnerButton {
     animaton.fromValue = frame.height
     animaton.toValue = frame.width
     animaton.duration = animationDuration
-    animaton.fillMode = kCAFillModeForwards
+	animaton.fillMode = CAMediaTimingFillMode.forwards
     animaton.isRemovedOnCompletion = false
     
     layer.add(animaton, forKey: animaton.keyPath)
