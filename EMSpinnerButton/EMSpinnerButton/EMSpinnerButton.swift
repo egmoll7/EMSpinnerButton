@@ -87,16 +87,21 @@ open class EMSpinnerButton: UIButton {
   /// Sets the button title color.
   public var titleColor: UIColor? {
     get {
-      return self.titleColor
+      return self.titleColor(for: .normal)
     }
     set {
       self.setTitleColor(newValue, for: .normal)
     }
   }
-
+  
   // MARK: - Initializers
   public required init(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)!
+    setUp()
+  }
+  
+  public override init(frame: CGRect) {
+    super.init(frame: frame)
     setUp()
   }
   
@@ -133,7 +138,7 @@ internal extension EMSpinnerButton {
     animaton.fromValue = frame.width
     animaton.toValue =  frame.height
     animaton.duration = animationDuration
-	animaton.fillMode = CAMediaTimingFillMode.forwards
+    animaton.fillMode = CAMediaTimingFillMode.forwards
     animaton.isRemovedOnCompletion = false
     
     layer.add(animaton, forKey: animaton.keyPath)
@@ -151,7 +156,7 @@ internal extension EMSpinnerButton {
     animaton.fromValue = frame.height
     animaton.toValue = frame.width
     animaton.duration = animationDuration
-	animaton.fillMode = CAMediaTimingFillMode.forwards
+    animaton.fillMode = CAMediaTimingFillMode.forwards
     animaton.isRemovedOnCompletion = false
     
     layer.add(animaton, forKey: animaton.keyPath)
@@ -199,9 +204,9 @@ internal extension EMSpinnerButton {
 public extension EMSpinnerButton {
   
   /**
-    Animates the the button with the given animation
+   Animates the the button with the given animation
    - parameter animation: Type of animation that will be executed
-  */
+   */
   public func animate(animation: AnimationType) {
     
     switch animation {

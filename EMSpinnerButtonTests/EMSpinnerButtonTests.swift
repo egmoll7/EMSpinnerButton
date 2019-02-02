@@ -54,6 +54,4 @@ class EMSpinnerButtonTests: XCTestCase {
     button.gradientColors = colors
     XCTAssertEqual(button.gradientLayer.colors as! [CGColor], colors, "Gradient Colors are not equal")
   }
-  
-  
 }
