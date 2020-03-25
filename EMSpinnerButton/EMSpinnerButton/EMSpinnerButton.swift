@@ -138,7 +138,7 @@ internal extension EMSpinnerButton {
     animaton.fromValue = frame.width
     animaton.toValue =  frame.height
     animaton.duration = animationDuration
-    animaton.fillMode = CAMediaTimingFillMode.forwards
+    animaton.fillMode = kCAFillModeForwards
     animaton.isRemovedOnCompletion = false
     
     layer.add(animaton, forKey: animaton.keyPath)
@@ -156,7 +156,7 @@ internal extension EMSpinnerButton {
     animaton.fromValue = frame.height
     animaton.toValue = frame.width
     animaton.duration = animationDuration
-    animaton.fillMode = CAMediaTimingFillMode.forwards
+    animaton.fillMode = kCAFillModeForwards
     animaton.isRemovedOnCompletion = false
     
     layer.add(animaton, forKey: animaton.keyPath)
